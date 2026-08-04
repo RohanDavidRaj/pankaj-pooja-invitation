@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function SplashScreen({ onEnter }) {
+export default function SplashScreen({ onEnter, nameFirst = "Komal", nameSecond = "Suyash" }) {
   return (
     <motion.div
       className="fixed inset-0 z-50 grid place-items-center overflow-hidden bg-[#4a2630] px-6 text-center text-cream"
@@ -19,7 +19,7 @@ export default function SplashScreen({ onEnter }) {
       >
         <p className="mb-5 text-xs font-semibold uppercase tracking-[0.42em] text-[#e8c77b]">A sacred celebration</p>
         <div className="mx-auto mb-6 grid h-24 w-24 place-items-center rounded-full border border-[#e8c77b]/50 text-5xl shadow-[0_0_60px_rgba(232,199,123,.18)]">ॐ</div>
-        <h1 className="font-display text-5xl italic sm:text-6xl">Komal <span className="not-italic text-[#e8c77b]">&</span> Suyash</h1>
+        <h1 className="font-display text-5xl italic sm:text-6xl">{nameFirst} <span className="not-italic text-[#e8c77b]">&</span> {nameSecond}</h1>
         <div className="mx-auto my-8 h-px w-24 bg-[#e8c77b]/70" />
         <button
           onClick={onEnter}

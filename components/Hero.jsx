@@ -13,7 +13,13 @@ const detailReveal = {
   show: { opacity: 1, y: 0 }
 };
 
-export default function Hero({ isVisible }) {
+export default function Hero({
+  isVisible,
+  nameFirst = "Komal",
+  nameSecond = "Suyash",
+  phoneDisplay = "7972529935 / 9403123453",
+  phoneHref = "tel:7972529935"
+}) {
   return (
     <section id="celebration" className="relative h-dvh overflow-hidden bg-[#fff5df] px-3 py-2 sm:h-auto sm:min-h-dvh sm:overflow-x-hidden sm:px-10 sm:py-16">
       <motion.div
@@ -36,7 +42,7 @@ export default function Hero({ isVisible }) {
               <Image src="/invitation-assets/ganesha-lotus.png" alt="Lord Ganesha seated on a lotus" fill priority unoptimized sizes="176px" className="object-contain drop-shadow-[0_12px_12px_rgba(134,72,72,.2)]" />
             </motion.div>
             <motion.p variants={detailReveal} className="text-[7px] font-bold uppercase tracking-[0.15em] text-[#725d4e] sm:text-xs sm:tracking-[0.28em]">Together with their families</motion.p>
-            <motion.h1 variants={detailReveal} whileHover={{ scale: 1.03 }} className="mt-1 font-display text-2xl italic leading-none text-[#562d32] sm:mt-5 sm:text-7xl">Komal <span className="text-[#b99161]">&</span> Suyash</motion.h1>
+            <motion.h1 variants={detailReveal} whileHover={{ scale: 1.03 }} className="mt-1 font-display text-2xl italic leading-none text-[#562d32] sm:mt-5 sm:text-7xl">{nameFirst} <span className="text-[#b99161]">&</span> {nameSecond}</motion.h1>
             <motion.p variants={detailReveal} className="mt-1 text-[9px] font-bold uppercase tracking-[0.1em] text-[#725d4e] sm:mt-6 sm:text-sm">Delighted to announce their engagement</motion.p>
             <motion.div variants={detailReveal} className="mx-auto my-1.5 flex items-center justify-center gap-2 text-[#b99161] sm:my-7 sm:gap-3"><span className="h-px w-8 bg-current sm:w-12" />✦<span className="h-px w-8 bg-current sm:w-12" /></motion.div>
             <motion.div variants={detailReveal} className="grid grid-cols-3 items-center gap-1 text-ink sm:gap-3">
@@ -51,7 +57,7 @@ export default function Hero({ isVisible }) {
               <Image src="/invitation-assets/engagement-logo.png" alt="Komal and Suyash engagement illustration" fill unoptimized sizes="(max-width: 640px) 288px, 384px" className="object-contain object-bottom drop-shadow-[0_18px_15px_rgba(87,46,42,.18)]" />
             </motion.div>
             <motion.p variants={detailReveal} className="mt-0.5 text-[9px] text-ink/80 sm:mt-2 sm:text-sm">With best compliments from <span className="font-display text-sm text-[#8f3b55] sm:text-xl">Family</span></motion.p>
-            <motion.a variants={detailReveal} href="tel:7972529935" className="mt-1 inline-block text-[9px] font-bold text-[#8f3b55] transition hover:text-[#5b2935] sm:mt-5 sm:text-sm">☎ 7972529935 / 9403123453</motion.a>
+            <motion.a variants={detailReveal} href={phoneHref} className="mt-1 inline-block text-[9px] font-bold text-[#8f3b55] transition hover:text-[#5b2935] sm:mt-5 sm:text-sm">☎ {phoneDisplay}</motion.a>
           </motion.div>
         </article>
       </motion.div>
