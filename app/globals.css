@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  color: #3D2930;
+  background: #FFF8EC;
+  font-family: var(--font-manrope), sans-serif;
+}
+
+::selection { background: #e8bbc0; color: #3D2930; }
+
+.paper-texture {
+  background-color: #fffaf0;
+  background-image: radial-gradient(rgba(184, 138, 59, .10) .7px, transparent .7px);
+  background-size: 10px 10px;
+}
+
+.floral-orbit {
+  animation: drift 7s ease-in-out infinite;
+}
+
+@keyframes drift {
+  50% { transform: translateY(-14px) rotate(7deg); }
+}
