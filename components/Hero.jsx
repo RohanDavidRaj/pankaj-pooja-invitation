@@ -15,10 +15,10 @@ const detailReveal = {
 
 export default function Hero({
   isVisible,
-  nameFirst = "Komal",
-  nameSecond = "Suyash",
-  phoneDisplay = "7972529935 / 9403123453",
-  phoneHref = "tel:7972529935"
+  nameFirst = "Pankaj",
+  nameSecond = "Pooja",
+  phoneDisplay = "9420424760 / 7666658717",
+  phoneHref = "tel:9420424760"
 }) {
   return (
     <section id="celebration" className="relative h-dvh overflow-hidden bg-[#fff5df] px-3 py-2 sm:h-auto sm:min-h-dvh sm:overflow-x-hidden sm:px-10 sm:py-16">
@@ -46,15 +46,15 @@ export default function Hero({
             <motion.p variants={detailReveal} className="mt-1 text-[9px] font-bold uppercase tracking-[0.1em] text-[#725d4e] sm:mt-6 sm:text-sm">Delighted to announce their engagement</motion.p>
             <motion.div variants={detailReveal} className="mx-auto my-1.5 flex items-center justify-center gap-2 text-[#b99161] sm:my-7 sm:gap-3"><span className="h-px w-8 bg-current sm:w-12" />✦<span className="h-px w-8 bg-current sm:w-12" /></motion.div>
             <motion.div variants={detailReveal} className="grid grid-cols-3 items-center gap-1 text-ink sm:gap-3">
-              <p className="text-[7px] font-bold uppercase tracking-wider sm:text-xs">Friday</p>
-              <p className="border-x border-[#b99161]/60 px-1 font-display text-sm leading-tight text-[#8f3b55] sm:px-2 sm:text-2xl"><span className="block text-2xl sm:text-6xl">14</span>August<br />2026</p>
+              <p className="text-[7px] font-bold uppercase tracking-wider sm:text-xs">Saturday</p>
+              <p className="border-x border-[#b99161]/60 px-1 font-display text-sm leading-tight text-[#8f3b55] sm:px-2 sm:text-2xl"><span className="block text-2xl sm:text-6xl">24</span>October<br />2026</p>
               <p className="text-[7px] font-bold uppercase leading-4 tracking-wider sm:text-xs">11:00 AM<br />Onwards</p>
             </motion.div>
             <motion.p variants={detailReveal} className="mt-1.5 text-[10px] leading-4 text-ink/80 sm:mt-7 sm:text-sm sm:leading-7">Your presence will make this occasion even more special.</motion.p>
             <motion.p variants={detailReveal} className="mt-1 text-[9px] font-bold uppercase tracking-[0.18em] text-[#a57548] sm:mt-5 sm:text-xs">Venue</motion.p>
-            <motion.p variants={detailReveal} className="mt-0.5 font-display text-sm leading-4 text-[#8f3b55] sm:mt-2 sm:text-2xl sm:leading-8">Chhappan Bhog<br />Chhatrapati Sambhaji Nagar</motion.p>
+            <motion.p variants={detailReveal} className="mt-0.5 font-display text-sm leading-4 text-[#8f3b55] sm:mt-2 sm:text-2xl sm:leading-8">Radha Krishna Mandir<br />Chhatrapati Sambhaji Nagar</motion.p>
             <motion.div initial={{ opacity: 0, y: 100, scale: 0.86 }} animate={isVisible ? { opacity: 1, scale: 1, y: [0, -4, 0] } : {}} transition={{ opacity: { duration: 0.65, delay: 1 }, scale: { duration: 0.75, delay: 1, type: "spring", stiffness: 120 }, y: { duration: 3.8, repeat: Infinity, ease: "easeInOut" } }} className="relative z-10 mx-auto mt-1 h-[clamp(3.5rem,14dvh,8rem)] w-full max-w-[10rem] sm:mt-5 sm:max-w-sm">
-              <Image src="/invitation-assets/engagement-logo.png" alt="Komal and Suyash engagement illustration" fill unoptimized sizes="(max-width: 640px) 288px, 384px" className="object-contain object-bottom drop-shadow-[0_18px_15px_rgba(87,46,42,.18)]" />
+              <Image src="/invitation-assets/engagement-logo.png" alt="Pankaj and Pooja engagement illustration" fill unoptimized sizes="(max-width: 640px) 288px, 384px" className="object-contain object-bottom drop-shadow-[0_18px_15px_rgba(87,46,42,.18)]" />
             </motion.div>
             <motion.p variants={detailReveal} className="mt-0.5 text-[9px] text-ink/80 sm:mt-2 sm:text-sm">With best compliments from <span className="font-display text-sm text-[#8f3b55] sm:text-xl">Family</span></motion.p>
             <motion.a variants={detailReveal} href={phoneHref} className="mt-1 inline-block text-[9px] font-bold text-[#8f3b55] transition hover:text-[#5b2935] sm:mt-5 sm:text-sm">☎ {phoneDisplay}</motion.a>

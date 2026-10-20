@@ -3,19 +3,19 @@ import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   metadataBase: new URL("https://komal-suyash-invitation.vercel.app"),
-  title: "Komal & Suyash — Engagement Invitation",
-  description: "Together with their families, delighted to announce their engagement. Friday, 14 August 2026, 11:00 AM onwards at Chhappan Bhog, Chhatrapati Sambhaji Nagar.",
+  title: "Pankaj & Pooja — Engagement Invitation",
+  description: "Together with their families, delighted to announce their engagement. Saturday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar.",
   openGraph: {
-    title: "Komal & Suyash — Engagement Invitation",
-    description: "You're invited! Friday, 14 August 2026, 11:00 AM onwards at Chhappan Bhog, Chhatrapati Sambhaji Nagar.",
+    title: "Pankaj & Pooja — Engagement Invitation",
+    description: "You're invited! Saturday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar.",
     url: "https://komal-suyash-invitation.vercel.app",
-    siteName: "Komal & Suyash Engagement",
+    siteName: "Pankaj & Pooja Engagement",
     images: [
       {
         url: "/invitation-assets/og-preview.png", // your 1200x630 image
         width: 1200,
         height: 630,
-        alt: "Komal & Suyash Engagement Invitation"
+        alt: "Pankaj & Pooja Engagement Invitation"
       }
     ],
     locale: "en_IN",
@@ -24,8 +24,8 @@ export const metadata = {
   // This specifically controls the WhatsApp/iMessage/Twitter-style card
   twitter: {
     card: "summary_large_image",
-    title: "Komal & Suyash — Engagement Invitation",
-    description: "You're invited! Friday, 14 August 2026, 11:00 AM onwards.",
+    title: "Pankaj & Pooja — Engagement Invitation",
+    description: "You're invited! Saturday, 24 October 2026, 11:00 AM onwards.",
     images: ["/invitation-assets/og-preview.png"]
   }
 };
