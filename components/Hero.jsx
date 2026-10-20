@@ -39,7 +39,7 @@ export default function Hero({
             className="relative border border-[#bb966e]/45 px-3 py-3 text-center sm:px-12 sm:py-11"
           >
             <motion.div initial={{ opacity: 0, y: -110, scale: 0.8 }} animate={isVisible ? { opacity: 1, scale: 1, y: [0, -8, 0], rotate: [0, 1.5, 0] } : {}} transition={{ opacity: { duration: 0.6, delay: 0.2 }, scale: { duration: 0.7, delay: 0.2, type: "spring", stiffness: 120 }, y: { duration: 4, repeat: Infinity, ease: "easeInOut" }, rotate: { duration: 4, repeat: Infinity, ease: "easeInOut" } }} className="relative z-10 mx-auto mb-0 h-[clamp(2.6rem,9dvh,6rem)] w-[clamp(2.6rem,9dvh,6rem)] sm:h-44 sm:w-44">
-              <Image src="/invitation-assets/ganesha-lotus.png" alt="Lord Ganesha seated on a lotus" fill priority unoptimized sizes="176px" className="object-contain drop-shadow-[0_12px_12px_rgba(134,72,72,.2)]" />
+              <Image src="/invitation-assets/krishna-radha-pink-lotuses.png" alt="Radha and Krishna among pink lotuses" fill priority unoptimized sizes="176px" className="object-contain drop-shadow-[0_12px_12px_rgba(134,72,72,.2)]" />
             </motion.div>
             <motion.p variants={detailReveal} className="text-[7px] font-bold uppercase tracking-[0.15em] text-[#725d4e] sm:text-xs sm:tracking-[0.28em]">Together with their families</motion.p>
             <motion.h1 variants={detailReveal} whileHover={{ scale: 1.03 }} className="mt-1 font-display text-2xl italic leading-none text-[#562d32] sm:mt-5 sm:text-7xl">{nameFirst} <span className="text-[#b99161]">&</span> {nameSecond}</motion.h1>
