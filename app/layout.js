@@ -12,7 +12,7 @@ export const metadata = {
     siteName: "Pankaj & Puja Engagement",
     images: [
       {
-        url: "/invitation-assets/og-preview.png", // your 1200x630 image
+        url: "https://pankaj-puja-invitation.vercel.app/invitation-assets/og-preview.jpg",
         width: 1200,
         height: 630,
         alt: "Pankaj & Puja Engagement Invitation"
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Pankaj & Puja — Engagement Invitation",
     description: "You're invited! Saturday, 24 October 2026, 12:00 PM onwards.",
-    images: ["/invitation-assets/og-preview.png"]
+    images: ["https://pankaj-puja-invitation.vercel.app/invitation-assets/og-preview.jpg"]
   }
 };
 

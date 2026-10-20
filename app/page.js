@@ -6,14 +6,15 @@ export const metadata = {
   openGraph: {
     title: "Pankaj & Puja — Engagement Invitation",
     description: "You're invited! Saturday, 24 October 2026, 12:00 PM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar.",
-    images: [{ url: "/invitation-assets/og-preview.png", width: 1200, height: 630, alt: "Pankaj & Puja Engagement Invitation" }],
+    url: "https://pankaj-puja-invitation.vercel.app",
+    images: [{ url: "https://pankaj-puja-invitation.vercel.app/invitation-assets/og-preview.jpg", width: 1200, height: 630, alt: "Pankaj & Puja Engagement Invitation" }],
     locale: "en_IN",
     type: "website"
   },
   twitter: {
     card: "summary_large_image",
     title: "Pankaj & Puja — Engagement Invitation",
-    images: ["/invitation-assets/og-preview.png"]
+    images: ["https://pankaj-puja-invitation.vercel.app/invitation-assets/og-preview.jpg"]
   }
 };
 
