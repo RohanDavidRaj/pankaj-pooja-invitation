@@ -4,10 +4,10 @@ import { Analytics } from "@vercel/analytics/next";
 export const metadata = {
   metadataBase: new URL("https://pankaj-puja-invitation.vercel.app"),
   title: "Pankaj & Puja — Engagement Invitation",
-  description: "Together with their families, delighted to announce their engagement. Friday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar(Aurangabad).",
+  description: "Together with their families, delighted to announce their engagement. Saturday, 24 October 2026, 12:00 PM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar(Aurangabad).",
   openGraph: {
     title: "Pankaj & Puja — Engagement Invitation",
-    description: "You're invited! Friday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar(Aurangabad).",
+    description: "You're invited! Saturday, 24 October 2026, 12:00 PM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar(Aurangabad).",
     url: "https://pankaj-puja-invitation.vercel.app",
     siteName: "Pankaj & Puja Engagement",
     images: [
@@ -25,7 +25,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pankaj & Puja — Engagement Invitation",
-    description: "You're invited! Saturday, 24 October 2026, 11:00 AM onwards.",
+    description: "You're invited! Saturday, 24 October 2026, 12:00 PM onwards.",
     images: ["/invitation-assets/og-preview.png"]
   }
 };
