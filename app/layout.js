@@ -12,9 +12,9 @@ export const metadata = {
     siteName: "Pankaj & Pooja Engagement",
     images: [
       {
-        url: "https://pankaj-pooja-invitation.vercel.app/invitation-assets/og-preview.png?v=2",
-        width: 1731,
-        height: 909,
+        url: "https://pankaj-pooja-invitation.vercel.app/invitation-assets/og-preview.jpg",
+        width: 1200,
+        height: 630,
         alt: "Pankaj & Pooja Engagement Invitation"
       }
     ],
@@ -26,7 +26,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Pankaj & Pooja — Engagement Invitation",
     description: "You're invited! Saturday, 24 October 2026, 11:00 AM onwards.",
-    images: ["https://pankaj-pooja-invitation.vercel.app/invitation-assets/og-preview.png?v=2"]
+    images: ["https://pankaj-pooja-invitation.vercel.app/invitation-assets/og-preview.jpg"]
   }
 };
 
