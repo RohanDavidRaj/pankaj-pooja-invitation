@@ -42,7 +42,7 @@ export default function InviteExperience({ nameFirst, nameSecond, phoneDisplay, 
       <AnimatePresence>
         {!hasEntered && <SplashScreen onEnter={handleEnter} nameFirst={nameFirst} nameSecond={nameSecond} />}
       </AnimatePresence>
-      <BackgroundMusic ref={musicRef} src="/invitation-assets/song.mp3" />
+      <BackgroundMusic ref={musicRef} src="/invitation-assets/krrish-flute.mp3" />
       <Hero
         isVisible={hasEntered}
         nameFirst={nameFirst}

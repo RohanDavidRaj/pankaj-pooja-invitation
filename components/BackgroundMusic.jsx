@@ -3,7 +3,7 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const BackgroundMusic = forwardRef(function BackgroundMusic({ src = "/invitation-assets/song.mp3" }, ref) {
+const BackgroundMusic = forwardRef(function BackgroundMusic({ src = "/invitation-assets/krrish-flute.mp3" }, ref) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
 
