@@ -2,13 +2,13 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
-  metadataBase: new URL("https://komal-suyash-invitation.vercel.app"),
+  metadataBase: new URL("https://pankaj-pooja-invitation.vercel.app"),
   title: "Pankaj & Pooja — Engagement Invitation",
   description: "Together with their families, delighted to announce their engagement. Saturday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar.",
   openGraph: {
     title: "Pankaj & Pooja — Engagement Invitation",
     description: "You're invited! Saturday, 24 October 2026, 11:00 AM onwards at Radha Krishna Mandir, Chhatrapati Sambhaji Nagar.",
-    url: "https://komal-suyash-invitation.vercel.app",
+    url: "https://pankaj-pooja-invitation.vercel.app",
     siteName: "Pankaj & Pooja Engagement",
     images: [
       {
