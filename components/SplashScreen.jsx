@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function SplashScreen({ onEnter, nameFirst = "Pankaj", nameSecond = "Pooja" }) {
+export default function SplashScreen({ onEnter, nameFirst = "Pankaj", nameSecond = "Puja" }) {
   return (
     <motion.div
       className="fixed inset-0 z-50 grid place-items-center overflow-hidden bg-[#4a2630] px-6 text-center text-cream"

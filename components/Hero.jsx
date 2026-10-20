@@ -16,7 +16,7 @@ const detailReveal = {
 export default function Hero({
   isVisible,
   nameFirst = "Pankaj",
-  nameSecond = "Pooja",
+  nameSecond = "Puja",
   phoneDisplay = "9420424760 / 7666658717",
   phoneHref = "tel:9420424760"
 }) {
@@ -54,7 +54,7 @@ export default function Hero({
             <motion.p variants={detailReveal} className="mt-1 text-[9px] font-bold uppercase tracking-[0.18em] text-[#a57548] sm:mt-5 sm:text-xs">Venue</motion.p>
             <motion.p variants={detailReveal} className="mt-0.5 font-display text-sm leading-4 text-[#8f3b55] sm:mt-2 sm:text-2xl sm:leading-8">Radha Krishna Mandir<br />Chhatrapati Sambhaji Nagar</motion.p>
             <motion.div initial={{ opacity: 0, y: 100, scale: 0.86 }} animate={isVisible ? { opacity: 1, scale: 1, y: [0, -4, 0] } : {}} transition={{ opacity: { duration: 0.65, delay: 1 }, scale: { duration: 0.75, delay: 1, type: "spring", stiffness: 120 }, y: { duration: 3.8, repeat: Infinity, ease: "easeInOut" } }} className="relative z-10 mx-auto mt-1 h-[clamp(3.5rem,14dvh,8rem)] w-full max-w-[10rem] sm:mt-5 sm:max-w-sm">
-              <Image src="/invitation-assets/engagement-logo.png" alt="Pankaj and Pooja engagement illustration" fill unoptimized sizes="(max-width: 640px) 288px, 384px" className="object-contain object-bottom drop-shadow-[0_18px_15px_rgba(87,46,42,.18)]" />
+              <Image src="/invitation-assets/engagement-logo.png" alt="Pankaj and Puja engagement illustration" fill unoptimized sizes="(max-width: 640px) 288px, 384px" className="object-contain object-bottom drop-shadow-[0_18px_15px_rgba(87,46,42,.18)]" />
             </motion.div>
             <motion.p variants={detailReveal} className="mt-0.5 text-[9px] text-ink/80 sm:mt-2 sm:text-sm">With best compliments from <span className="font-display text-sm text-[#8f3b55] sm:text-xl">Family</span></motion.p>
             <motion.a variants={detailReveal} href={phoneHref} className="mt-1 inline-block text-[9px] font-bold text-[#8f3b55] transition hover:text-[#5b2935] sm:mt-5 sm:text-sm">☎ {phoneDisplay}</motion.a>
