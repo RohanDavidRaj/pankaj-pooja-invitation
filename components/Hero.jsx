@@ -30,7 +30,7 @@ export default function Hero({
         className="relative mx-auto flex h-full max-w-2xl items-center justify-center sm:h-auto"
       >
         <article className="relative w-full overflow-hidden rounded-[1.6rem] border border-[#b98a5a]/30 bg-[#fff9e9] p-1.5 shadow-[0_24px_70px_rgba(97,55,43,.22)] sm:rounded-[2.2rem] sm:p-3">
-          <Image src="/invitation-assets/lotus-invitation-frame.jpeg" alt="Lotus floral invitation frame" fill priority unoptimized sizes="(max-width: 768px) 100vw, 672px" className="object-fill opacity-90" />
+          <Image src="/invitation-assets/pastel-lotus-temple-garden-frame.png" alt="Lotus floral invitation frame" fill priority unoptimized sizes="(max-width: 768px) 100vw, 672px" className="object-fill opacity-90" />
           <div className="absolute inset-0 bg-gradient-to-b from-[#fff9e9]/10 via-[#fff9e9]/65 to-[#fff9e9]/15" />
           <motion.div
             variants={{ hidden: {}, show: { transition: { staggerChildren: 0.14, delayChildren: 0.45 } } }}
